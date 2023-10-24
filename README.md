@@ -89,6 +89,6 @@ We welcome contributions from developers to help improve this project. To contri
 
 ## License:
 
-This project is licensed under the [License Name]. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache-2.0 license . See the [Apache-2.0 license ](LICENSE) file for details.
 
 Your contributions are appreciated, and together we'll make Website 2.0 a success! 🚀
