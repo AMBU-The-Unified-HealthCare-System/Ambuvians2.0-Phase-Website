@@ -1,7 +1,7 @@
 # Project Name: Website 2.0
 
 ## Project Description:
-This Git repository is dedicated to the development of Ambuvians Website 2.0, which represents the next phase of our website. The project is built using the [Model-View-Controller (MVC) architecture](#https://developer.mozilla.org/en-US/docs/Glossary/MVC) to ensure a structured and maintainable codebase. This README provides essential information for developers who will be working on this project.
+This Git repository is dedicated to the development of Ambuvians Website 2.0, which represents the next phase of our website. The project is built using the [Model-View-Controller (MVC) architecture](https://developer.mozilla.org/en-US/docs/Glossary/MVC) to ensure a structured and maintainable codebase. This README provides essential information for developers who will be working on this project.
 
 ## Table of Contents:
 - [Project Description](#project-description)
@@ -59,9 +59,9 @@ The project structure might look like this:
 
 ## Technologies Used:
 
-- Language: [Specify programming language(s)]
+- Language: [python, Javascript etc...]
 - Web Framework: [Specify framework, e.g., Django, Ruby on Rails, etc.]
-- Database: [Specify database, e.g., PostgreSQL, MySQL, etc.]
+- Database: [Specify database, e.g., MongoDB, MySQL, etc.]
 - Frontend: [Specify frontend technologies, e.g., HTML, CSS, JavaScript, etc.]
 
 List all the major technologies and tools used in the project.
