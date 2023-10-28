@@ -93,8 +93,3 @@ git push origin your-branch-name
 git branch -d your-branch-name
 git push origin --delete your-branch-name
 ```
-
-This simplified guide should help you navigate the PR process more easily. Remember to follow coding guidelines, test thoroughly, and maintain effective communication with reviewers throughout the process.
-```
-
-You can create a new README file in your GitHub repository and paste this content into it. Make sure to replace `"image-link"` with the actual link to your images or any other content as needed.
