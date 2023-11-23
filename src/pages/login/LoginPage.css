@@ -1,0 +1,490 @@
+body{
+  margin: 0;
+}
+.LoginContainer {
+display: flex;
+
+
+}
+
+.left {
+width: 666px;
+height: 970px;
+flex-shrink: 0;
+background: linear-gradient(325deg, #E85A4F 0.74%, rgba(232, 90, 79, 0.51) 100%);
+margin: 0%;
+ 
+
+}
+
+.LiveLocationTracker {
+width: 453.273px;
+height: 83.737px;
+flex-shrink: 0;
+color: var(--White, #FFF);
+text-align: center;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%;
+letter-spacing: -0.56px;
+margin-left: 90px;
+margin-top: 55px;
+}
+
+.leftImageContainer {
+width: 556px;
+height: 640px;
+flex-shrink: 0;
+
+position: relative;
+}
+
+.img {
+position: relative;
+  z-index: 99;
+   margin-left:15px
+}
+
+.eclipse {
+width: 500px;
+height: 500px;
+flex-shrink: 0;
+border-radius: 500px;
+background: linear-gradient(325deg, #B30C0C 0.74%, #EEE 100%);
+z-index: 1;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.AmbuviansHealthcare {
+display: flex;
+width: 442px;
+height: 204px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+margin-top: -30px;
+ margin-left: 15px
+}
+
+.Ambuvians1 {
+color: #E9EAF2;
+font-family: Poppins;
+font-size: 45px;
+font-style: normal;
+font-weight: 900;
+line-height: 124.5%;
+}
+
+.Healthcare1 {
+color: #B7B5B5;
+font-family: Poppins;
+font-size: 45px;
+font-style: normal;
+font-weight: 900;
+line-height: 124.5%;
+}
+.right{
+  margin-left: 20px;
+}
+
+.rightImageConatiner {
+width: 151px;
+height: 54px;
+flex-shrink: 0;
+margin-top: 44px;
+}
+
+.Ambuvians2 {
+color: #333;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 124.5%;
+}
+
+.ambu {
+color: #E85A4F;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 124.5%;
+}
+
+.create-account{
+color: var(--Black, #1D1D1D);
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 39.2px */
+letter-spacing: -0.56px;
+}
+.family{
+
+  color: var(--Body-text, #2D3748);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+letter-spacing: -0.28px;
+
+}
+.input-box form {
+margin-top: 50px;
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+
+
+}
+
+.box{
+margin-bottom: 30px;
+  display: flex;
+width: 358px;
+height: 72px;
+flex-direction: column;
+align-items: flex-start;
+gap: 4px;
+flex-shrink: 0;
+}
+
+label{
+  color: var(--Body-text, #2D3748);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+letter-spacing: -0.28px;
+}
+input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]) {
+  width: 358px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid var(--Strokes, #D1D1D1);
+padding-left: 20px;
+}
+input::placeholder {
+color: var(--Body-text, #2D3748);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+letter-spacing: -0.28px;
+
+}
+.input-container {
+margin-left: 10px;}
+
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+  color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+  color: black !important;
+}
+input[type="checkbox"]{
+  width: 20px;
+height: 20px;
+flex-shrink: 0;
+}
+.rememberForgot{
+width: 50vw;
+justify-content: space-between;
+display: flex;
+justify-content: space-between;
+}
+.remember{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.rem{
+  color: var(--Body-text, #2D3748);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+letter-spacing: -0.28px;
+
+margin-left: 6px;
+}
+.forgot a{
+display: flex;
+color: var(--Blue, #007AFF);
+text-align: right;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+letter-spacing: -0.28px;
+text-decoration-line: underline;
+}
+.terms{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.terms label{
+color: var(--Body-text, #2D3748);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+letter-spacing: -0.28px;
+}
+.terms label span{
+color: var(--Blue, #007AFF);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: -0.28px;
+}
+.createSign{
+gap: 25px;
+display: flex;
+justify-content: space-between;
+width: 80%;
+margin-top: 20px;
+margin-right: 40px;
+}
+.createAccount button{
+width: 358px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FD0808;
+color: var(--White, #FFF);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+.signAccount button{
+
+width: 358px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--Body-text, #2D3748);
+color: var(--White, #FFF);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+.DoyouHaveAccount p{
+color: #2D3748;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+letter-spacing: -0.28px;
+}
+.DoyouHaveAccount span{
+color: var(--Blue, #007AFF);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: -0.28px;
+}
+.DoyouHaveAccount{
+margin-top: 35px;
+margin-right: 15px;
+cursor:  pointer;
+}
+.download{
+margin-top: 49px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+.downloadAndroid{
+width: 134.999px;
+height: 40px;
+flex-shrink: 0;
+}
+.downloadios{
+width: 134.999px;
+height: 40px;
+flex-shrink: 0;
+}
+.form {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+.form-fields {
+display: flex;
+}
+.rememberForgot{
+width:87%
+}
+
+@media screen and (min-width: 2651px) {
+.left
+{
+width: 50%;
+}
+.box{
+width: 600px;
+}
+.rememberForgot {
+width: 78%; /* Ensure it takes full width */
+}
+
+.sign{
+margin-right: 20rem;
+}
+.create{
+margin-left: 10rem;
+}
+.DoyouHaveAccount{
+margin-right: 15rem;
+}
+.img{
+margin-left: 300px;
+
+}
+.eclipse{
+margin-left: 250px;
+}
+.LiveLocationTracker{
+width: auto;
+}
+.right{
+margin-left: 100px;
+}
+.AmbuviansHealthcare{
+  margin-left: 300px;
+}
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+.left
+{
+width: 40%;
+}
+input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]){
+width: 20rem;
+}
+
+
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1281px) {
+
+input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]){
+  width: 317px;
+}
+.input-box{
+  width: 800px;
+}
+.rememberForgot{
+  width: 79%;
+}
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+.left{
+  display: none;
+
+}
+.right{
+  width: 100%;
+}
+.head{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]){
+width: 385px;
+}
+.LastName,
+.Dob,
+.ConfirmPassword  {
+margin-left: 80px;/* Adjust the margin as needed */
+}
+.rememberForgot {
+width: 879px; /* Ensure it takes full width */
+}
+.input-box form{
+margin-left:100px ;
+}
+.forgot{
+margin-right: 30px;
+}
+.createAccount .create{
+margin-left: 90px;
+}
+
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1250px) {
+.rememberForgot{
+  width: 79%;
+}
+
+} 
+
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+}
+
+@media screen and (max-width: 768px) and (min-width: 541px) {
+/* Styles for screens between 768px and 541px */
+}
+
+@media screen and (max-width: 540px) and (min-width: 321px) {
+/* Styles for screens between 540px and 321px */
+}
+
+@media screen and (max-width: 320px){
+/* Styles for screens under 320px */
+}
+.sign img{
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+}
+.sign{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.sign .google{
+margin-left: 5px;
+}
+.signwithgoogle{
+margin-left: 10px;
+}
