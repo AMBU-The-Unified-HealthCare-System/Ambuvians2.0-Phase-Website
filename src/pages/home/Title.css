@@ -92,7 +92,18 @@
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-  /* Styles for screens between 1024px and 769px */
+  
+  .title-content {
+    gap: 1rem;
+    margin-left: 4rem;
+  }
+  .title-content-heading {
+    font-size: 60px;
+  }
+  
+  .title-image img {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 768px) and (min-width: 541px) {

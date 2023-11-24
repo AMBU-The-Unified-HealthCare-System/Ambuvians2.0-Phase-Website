@@ -3,7 +3,7 @@ import service1 from "../../assets/images/service1.svg";
 import service2 from "../../assets/images/service2.svg";
 import service3 from "../../assets/images/service3.svg";
 import service4 from "../../assets/images/service4.svg";
-import serviceBackground from "../../assets/images/service.svg";
+import serviceBackground from "../../assets/images/service.webp";
 
 const Service = () => {
   return (

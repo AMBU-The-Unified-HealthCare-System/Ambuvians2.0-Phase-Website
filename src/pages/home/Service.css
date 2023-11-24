@@ -41,9 +41,9 @@
 
 .service-background {
   position: absolute;
-  width: 30rem;
-  top: -215%;
-  left: 19%;
+  width:25rem;
+  top: 30%;
+  right: -45%;
 }
 
 .service-text {

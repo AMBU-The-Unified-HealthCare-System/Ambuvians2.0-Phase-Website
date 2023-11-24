@@ -89,7 +89,26 @@
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-  /* Styles for screens between 1024px and 769px */
+  .need-div1-img1 {
+    height: 12rem;
+    align-self: flex-end;
+  }
+  .need-div1-img2 {
+    height: 16rem;
+    align-self: flex-end;
+  }
+  .need-div1 div h4 {
+    font-size: 40px;  
+  }
+  
+  .need-div1 div p {
+    font-size: 14px;
+    width: 30ch;
+  }
+  .need-div1-img3,
+.need-div1-img4 {
+  width: 20rem;
+}
 }
 
 @media screen and (max-width: 768px) and (min-width: 541px) {

@@ -18,13 +18,14 @@ const Home = () => {
       <Vision />
       <Service />
       <Experience />
+      
       <Need />
       <div className="backing">
         <Mentor />
         <Partners />
         <Feedback />
       </div>
-      <FeedbackForm />
+      <FeedbackForm /> 
     </div>
   );
 };
