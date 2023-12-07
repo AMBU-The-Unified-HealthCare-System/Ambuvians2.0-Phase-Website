@@ -3,12 +3,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 0rem;
+  margin-top: 2rem;
 }
 
 .partners-heading {
   color: #4d4d4d;
-
   text-align: center;
   font-family: Inter;
   font-size: 38px;
@@ -24,9 +23,20 @@
   justify-content: space-evenly;
   padding: 1rem;
   margin-top: 2rem;
-
   border-radius: 42px;
   background: #f1e4e5;
+}
+
+.partners-logo {
+  transition: all 0.5s ease-in-out;
+
+}
+
+.partners-logo:hover {
+  cursor: pointer;
+  /* transform: rotate3d(0, 1, 0, 480deg);
+  transform: rotate3d(0, 1, 0, 360deg);
+  transition: all 2.5s ease-out; */
 }
 
 @media screen and (min-width: 2651px) {

@@ -1,4 +1,6 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
+
 import play from "../assets/images/play-store.svg";
 import apple from "../assets/images/apple.svg";
 import insta from "../assets/images/insta.svg";
@@ -8,6 +10,7 @@ import linkedin from "../assets/images/linkedin.svg";
 import location from "../assets/images/Location.webp";
 import gmail from "../assets/images/Gmail.svg";
 import call from "../assets/images/call.svg";
+
 
 function Footer() {
   return (
@@ -93,7 +96,7 @@ function Footer() {
               </li>
               <li>
                 <span>
-                  <a href="/about">Enquiry</a>
+                  <Link to="/about">Enquiry</Link>
                 </span>
               </li>
               <li>
@@ -108,6 +111,16 @@ function Footer() {
                   <a href="/hiring">Join Us</a>
                 </span>
               </li>
+              <li>
+                <span>
+                  <link to="/terms">Terms and Services</link>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <link to="/privacy">Privacy Policy</link>
+                </span>
+              </li>
             </ul>
           </div>
           <div className="Services">
@@ -115,7 +128,7 @@ function Footer() {
             <ul>
               <li>
                 <span>
-                  <a href="/services">Categorized Ambulance</a>
+                  <a href="/login">Categorized Ambulance</a>
                 </span>
               </li>
               <li>

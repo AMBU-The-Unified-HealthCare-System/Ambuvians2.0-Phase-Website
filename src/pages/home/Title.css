@@ -1,5 +1,7 @@
 .title {
   display: flex;
+  height: 100vh;
+  margin-top: 11%;
 }
 
 .title-content {
@@ -7,6 +9,7 @@
   flex-direction: column;
   gap: 1rem;
   margin-left: 4rem;
+  margin-top: 30px;
 }
 .title-content-heading {
   display: flex;
@@ -77,9 +80,14 @@
   }
 }
 
-@media screen and (max-width: 2560px) and (min-width: 1441px) {
+@media screen and (max-width: 2561px) and (min-width: 1441px) {
+
+  .title {
+    height: 900px;
+  }
+
   .title-image img {
-    width: 500px;
+    width: 600px;
   }
 }
 
@@ -112,9 +120,15 @@
 
 @media screen and (max-width: 540px) and (min-width: 321px) {
   /* Styles for screens between 540px and 321px */
+  .title-image {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 320px) {
   /* Styles for screens under 320px */
+  .title-image {
+    display: none;
+  }
 }
 

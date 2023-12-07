@@ -23,6 +23,12 @@
   margin-bottom: 10px;
 }
 
+.stats-detail:hover {
+  cursor: pointer;
+  scale: 1.2;
+  transition: 0.5s;
+}
+
 .stats-detail {
   display: flex;
   flex-direction: column;

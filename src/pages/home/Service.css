@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin-top: 150px;
 }
 
 .service-heading {
@@ -43,7 +44,7 @@
   position: absolute;
   width:25rem;
   top: 30%;
-  right: -45%;
+  right: -33%;
 }
 
 .service-text {
