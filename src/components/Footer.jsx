@@ -70,12 +70,12 @@ function Footer() {
                 </a>
               </abbr>
               <abbr title="twitter" className="third-icon">
-                <a href="https://www.threads.net/@official.ambuvians">
+                <a href="https://www.threads.net/@official.ambuvians" target="_blank" rel="noreferrer">
                   <img src={x} alt="twitter icon" />
                 </a>
               </abbr>
               <abbr title="linkedin" className="fourth-icon">
-                <a href="https://www.linkedin.com/company/ambuvians-healthcare-pvt-ltd/?viewAsMember=true">
+                <a href="https://www.linkedin.com/company/ambuvians-healthcare-pvt-ltd/?viewAsMember=true" target="_blank" rel="noreferrer">
                   <img src={linkedin} alt="linkedin icon" />
                 </a>
               </abbr>
@@ -98,7 +98,7 @@ function Footer() {
               </li>
               <li>
                 <span>
-                  <a href="https://heyzine.com/flip-book/c538e2deab.html#page/1">
+                  <a href="https://heyzine.com/flip-book/c538e2deab.html#page/1" target="_blank" rel="noreferrer">
                     Handbook
                   </a>
                 </span>
