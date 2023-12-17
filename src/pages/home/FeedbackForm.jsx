@@ -4,8 +4,11 @@ import back from "../../assets/images/feedbackForm.json";
 import Lottie from "lottie-react";
 import axios from "axios";
 import { LiaStarSolid } from "react-icons/lia";
+// import db from "../../firebase"
+
 
 export default function FeedbackForm() {
+  
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState("");
   const [email, setEmail] = useState("");

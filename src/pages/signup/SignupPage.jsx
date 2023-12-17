@@ -1,4 +1,4 @@
-import "./LoginPage.css";
+import "./SignupPage.css";
 import { Link } from "react-router-dom";
 import googleDownload from "../../assets/images/Google Play Badge.svg";
 import appleDownload from "../../assets/images/App Store Badge.svg";
@@ -6,32 +6,23 @@ import Ambuvians from "../../assets/images/Ambuvians (3508 x 4960 px) 1.png"
 import Logo from "../../assets/images/Picsart_23-06-23_23-27-16-227-removebg-preview 1.png"
 import googlesign from "../../assets/images/iconfinder_Google_1298745 1.png"
 import { useState } from "react";
-import { createUserWithEmailAndPassword, signInWithPopup} from "firebase/auth";
-import { auth, googleProvider } from "../../firebase";
-function LoginPage (){
+import { auth } from "../../firebase";
+import { signInWithEmailAndPassword } from "firebase/auth";
+function SignupPage (){
   const [email, setEmail]= useState("");
   const [password, setPassword]= useState("");
-  //sign up with email and password
-  const signUp=(e)=>{
+  const signIn =(e)=>{
+    // sign in existing user
     e.preventDefault();
-    createUserWithEmailAndPassword(auth,email,password)
-     .then((userCredential)=>{
-      console.log(userCredential);
-     })
-     .catch((error)=>{
-      console.log(error);
-     });
-  };
-  //sign uo with google
-  const signInWithGoogle = async () => {
-    try {
-      await signInWithPopup(auth, googleProvider);
-    } catch(err){
-      console.error(err);
-    }
-  };
+    signInWithEmailAndPassword(auth,email,password)
+    .then((userCredential)=>{
+        console.log(userCredential);
+    }).catch((error)=>{
+        console.log(error);
+    })
+  }
 
-
+  
   return (
     <div className="LoginContainer">
       <div className="left">
@@ -63,58 +54,50 @@ function LoginPage (){
             </span>
           </div>
           <div className="create-account">
-            <span>Create Account</span>
+            <span>Welcome Back</span>
           </div>
           <span className="family">Be part of Ambuvians family</span>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div className="input-box">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <form action="" className="form">
+          <form action="" onSubmit={signIn} className="form">
             <div>
               <div className="form-fields">
-              <div className="box firstName">
-                <label htmlFor="">Full name</label>
-                <input type="text" name="" id="" placeholder="Ambuvians" />
-              </div>
+               
               </div>
               <div className="form-fields">
               <div className="box Email">
                 <label htmlFor="">Email</label>
-                <input type="email" name="" id="" placeholder="ambu.vians@example.com" value={email} required onChange={(e)=> setEmail(e.target.value)} />
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="ambu.vians@example.com"
+                  value={email}
+                  onChange={(e)=> setEmail(e.target.value)}
+                  required
+                />
               </div>
-              <div className="box Dob">
-                <label htmlFor="">
-                  Date of birth <span>(MM/DD/YY)</span>
-                </label>
-                <input type="date" name="" id="" required />
-              </div>
+            
               </div>
               <div className="form-fields">
               <div className="box Password">
                 <label htmlFor="">Password</label>
-                <input type="password" name="" id="" value={password} onChange={(e)=>setPassword(e.target.value)} required/>
+                <input type="password" required name="" id="" value={password} onChange={(e)=>setPassword(e.target.value)}/>
               </div>
-              <div className="box ConfirmPassword">
-                <label htmlFor="">Confirm Password</label>
-                <input type="password" name="" id="" required/>
-              </div>
+              
             </div>
             </div>
             <div className="rememberForgot">
@@ -127,13 +110,6 @@ function LoginPage (){
               <div className="forgot">
                 <a href="/">Forgot password?</a>
               </div>
-            </div>
-            <div className="terms">
-              <input type="checkbox" name="" id="" />
-              <label htmlFor="" className="conditions">
-                I agree to <span>Terms </span>
-                and <span>Conditions</span>
-              </label>
             </div>
           
 
@@ -153,22 +129,13 @@ function LoginPage (){
 
 
 
-
-
-
-
-
-
-
-
-
           <div className="createSign">
             <div className="createAccount">
-              <button onClick={signUp} className="create">Create Account</button>
+              <button type="submit" onClick={signIn} className="create">Sign In</button>
             </div>
             <div className="signAccount">
               
-              <button className="sign" onClick={signInWithGoogle} >
+              <button className="sign">
                 <div className="google">
                 <img src={googlesign} alt="" loading="lazy"/>
                 </div>
@@ -182,7 +149,7 @@ function LoginPage (){
           </form>
           <div className="DoyouHaveAccount">
             <p>
-              Already have an account? <span><Link to="/signup">Log in</Link></span>{" "}
+              Don&apos;t have an account? <span><Link to="/login">Sign Up</Link></span>{" "}
             </p>
           </div>
           <div className="download">
@@ -199,4 +166,4 @@ function LoginPage (){
   );
 }
 
-export default LoginPage;
+export default SignupPage;
