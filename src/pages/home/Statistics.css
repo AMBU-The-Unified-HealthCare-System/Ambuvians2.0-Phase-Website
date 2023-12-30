@@ -1,10 +1,19 @@
+* {
+  padding: 0%;
+  margin : 0%;
+}
 .statistic {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width : 100%;
   align-items: center;
+  padding: 0;
+  margin : 0;
 }
-
+.img-statistics {
+  background-color: rgba(255, 196, 200, 0.63);
+}
 .statistics-heading {
   color: var(--neutral-d-grey, #4d4d4d);
   text-align: center;
@@ -21,6 +30,9 @@
   margin-right: 2%;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.flex-alternate {
+  display :none;
 }
 
 .stats-detail {
@@ -47,6 +59,9 @@
   font-size: 13.49px;
 }
 
+.stats-detail-flex-2 {
+  display: flex;
+}
 @media screen and (min-width: 2651px) {
   /* Styles for screens above 2650px */
 }
@@ -67,12 +82,78 @@
   /* Styles for screens between 1024px and 769px */
 }
 
-@media screen and (max-width: 768px) and (min-width: 541px) {
+@media screen and (max-width: 796px) and (min-width: 541px) {
   /* Styles for screens between 768px and 541px */
+  .stats-detail-1 ,
+  .stats-detail-2 {
+    display: none;
+    font-size: 0.5 rem;
+  }
+  .stats-detail-p {
+    font-size: 1rem;
+  }
+
 }
 
 @media screen and (max-width: 540px) and (min-width: 321px) {
   /* Styles for screens between 540px and 321px */
+  .statistic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width : 100%;
+    align-items: center;
+    padding: 0;
+    margin : 0;
+  }
+  .img-statistics {
+    background-color: rgba(255, 196, 200, 0.63);
+  }
+  .statistics-heading {
+    color: var(--neutral-d-grey, #4d4d4d);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+  }
+  
+  .stats-details {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(255, 196, 200, 0.63);
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .flex-alternate {
+    display :none;
+  }
+  
+  .stats-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .stats-detail h4 {
+    color: #4d4d4d;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  
+  .stats-detail p {
+    color: var(--neutral-d-grey, #4d4d4d);
+    text-align: center;
+    font-family: Inter;
+    font-size: 13.49px;
+  }
+  
 }
 
 @media screen and (max-width: 320px) {

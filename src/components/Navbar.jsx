@@ -24,7 +24,7 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  React.useEffect(() => {
+  React.useEffect(() => { 
     window.addEventListener("scroll", handleScroll);
 
     return () => {

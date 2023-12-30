@@ -9,9 +9,13 @@ import Service from "./Service";
 import Statistics from "./Statistics";
 import Title from "./Title";
 import Vision from "./Vision";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
+    <>
+    <Navbar/>
     <div style={{ marginTop: "9vh" }}>
       <Title />
       <Statistics />
@@ -27,6 +31,8 @@ const Home = () => {
       </div>
       <FeedbackForm /> 
     </div>
+    {/* <Footer/> */}
+    </>
   );
 };
 

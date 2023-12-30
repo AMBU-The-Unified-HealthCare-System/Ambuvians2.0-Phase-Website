@@ -6,6 +6,7 @@ import insta from "../../assets/images/mentor-instagram.svg";
 
 const Mentor = () => {
   return (
+    <div>
     <div className="mentor">
       <h2 className="mentor-heading">Our Mentors</h2>
       <div className="mentor-cards">
@@ -28,9 +29,11 @@ const Mentor = () => {
                 </a>
               </div>
             </div>
+            
           );
         })}
       </div>
+    </div>
     </div>
   );
 };

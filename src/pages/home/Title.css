@@ -1,5 +1,6 @@
 .title {
   display: flex;
+
 }
 
 .title-content {
@@ -108,13 +109,32 @@
 
 @media screen and (max-width: 768px) and (min-width: 541px) {
   /* Styles for screens between 768px and 541px */
+  .title-content {
+    gap: 1rem;
+    margin-left: 4rem;
+  }
+  .title-content-heading {
+    font-size: 50px;
+  }
+  
+  
+  .exp img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 540px) and (min-width: 321px) {
   /* Styles for screens between 540px and 321px */
+  .title {
+    width :100% ;
+  }
 }
 
 @media screen and (max-width: 320px) {
   /* Styles for screens under 320px */
+  .title {
+    width: 100%;
+    height: auto;
+  }
 }
 

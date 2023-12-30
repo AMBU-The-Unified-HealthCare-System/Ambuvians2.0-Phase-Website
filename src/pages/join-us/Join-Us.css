@@ -1,0 +1,27 @@
+.JoinUs-child1{
+    display : flex;
+    padding-top : 10px;
+    flex-direction: column;
+}
+.JoinUs-Parent {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.JoinUs-child2{
+    display: flex;
+    flex-direction: column;
+
+}
+.JoinUs-container{
+    background-color: #efefef;
+    margin: auto;
+}
+
+@media (max-width : 991px){
+    .JoinUs-Parent {
+        flex-direction : row;
+        justify-content :center; 
+    }
+}

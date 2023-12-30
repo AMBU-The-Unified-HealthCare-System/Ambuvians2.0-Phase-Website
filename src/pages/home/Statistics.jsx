@@ -21,10 +21,22 @@ const Statistics = () => {
           <p>Health Personals</p>
         </div>
         <div className="stats-detail">
-          <img src={stats3} alt="statistic 3" />
+          <img className="img-statistics" src={stats3} alt="statistic 3" />
           <h4>1,00,000+</h4>
           <p>Patients</p>
         </div>
+        
+        <div className="stats-detail stats-detail-1">
+          <img src={stats4} alt="statistic 4" />
+          <h4>5,000+</h4>
+          <p>Health Policies</p>
+        </div>
+        <div className="stats-detail stats-detail-2">
+          <img src={stats5} alt="statistic 5" />
+          <h4>46,328+</h4>
+          <p>Hospital Tie ups</p>
+        </div>
+        <div className="flex-alternate">
         <div className="stats-detail">
           <img src={stats4} alt="statistic 4" />
           <h4>5,000+</h4>
@@ -35,6 +47,8 @@ const Statistics = () => {
           <h4>46,328+</h4>
           <p>Hospital Tie ups</p>
         </div>
+        </div>
+        
       </div>
     </div>
   );

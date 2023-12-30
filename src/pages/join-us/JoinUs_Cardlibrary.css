@@ -1,0 +1,19 @@
+.joinUs-cardlibrary-child1,
+.joinUs-cardlibrary-child2,
+.joinUs-cardlibrary-child3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.JoinUs-cardlibrary{
+    background-image: url(./../../assets/images/joinUs/Rectangle.svg);
+}
+@media (max-width : 798px){
+    .joinUs-cardlibrary-child1,
+    .joinUs-cardlibrary-child2,
+    .joinUs-cardlibrary-child3{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
