@@ -9,16 +9,26 @@
   flex-direction: column;
   padding-bottom: 5rem;
 }
+@media (max-width : 853px){
+  .need {
+    background-image: none;
+  }
+}
 
 .need-heading {
   color: #4d4d4d;
-
   text-align: center;
   font-family: Inter;
   font-size: 38px;
   font-style: normal;
   font-weight: 600;
-  margin-bottom: 5rem;
+  margin-top: 7%;
+  margin-bottom:2% ;
+}
+@media (max-width : 666px ){
+  .need-heading{
+    font-size: 22px;
+  }
 }
 
 .need-div {
@@ -40,6 +50,21 @@
   height: 14rem;
   align-self: flex-end;
 }
+@media (max-width : 774px){
+  .need-div1-img1 {
+    display: none;
+  }
+  .need-div1-img2 {
+    max-height: 141px;
+    height: auto;
+    width: auto;
+  }
+}
+@media (max-width : 550px){
+  .need-div1-img2{
+    display: none;
+  }
+}
 
 .need-div1 div h4 {
   color: #dc1f27;
@@ -49,7 +74,16 @@
   font-weight: 700;
   line-height: 55px; /* 122.222% */
 }
-
+@media (max-width : 774px){
+  .need-div1 div h4{
+      color: #DC1F27;
+      font-family: Poppins;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 122.727%; /*  */
+  }
+}
 .need-div1 div p {
   color: #868686;
   text-align: justify;
@@ -60,17 +94,48 @@
   line-height: 175%; /* 31.5px */
   width: 40ch;
 }
-
+@media (max-width : 774px ){
+  .need-div1 div p{
+      color: #333;
+      text-align: justify;
+      font-family: Poppins;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+}
 .need-div2 {
   display: flex;
   gap: 2rem;
-  justify-content: flex-start;
+  justify-content: space-evenly;
 }
-
+@media (max-width : 550px){
+  .need-div2{
+    gap : 1rem;
+  }
+}
 .need-div1-img3,
 .need-div1-img4 {
   width: 24rem;
 }
+@media (max-width : 774px){
+  .need-div1-img3,
+  .need-div1-img4 {
+      max-height: 141px;
+      width: auto;
+      height: auto;
+  }
+}
+@media (max-width : 550px){
+  .need-div1-img3,
+  .need-div1-img4 {
+    width: 170px;
+    height: 84px;
+    
+  }
+}
+
 
 @media screen and (min-width: 2651px) {
   /* Styles for screens above 2650px */

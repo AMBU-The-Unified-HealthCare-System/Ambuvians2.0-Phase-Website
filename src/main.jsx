@@ -11,6 +11,7 @@ import LoginPage from "./pages/login/LoginPage.jsx";
 import About from "./pages/about/about.jsx";
 import Join_Us from "./pages/join-us/Join-Us.jsx";
 import WebDevelpoer from "./pages/join-us/WebDeveloper.jsx";
+import Test1 from "./pages/testComponent/Test1.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
       },
       {
         path : "/test",
-        element : <WebDevelpoer />
+        element : <Test1 />
       }
     ],
   },

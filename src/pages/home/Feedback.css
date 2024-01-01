@@ -13,6 +13,12 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-top: 7%;
+}
+@media (max-width : 666px ){
+  .feedback-heading{
+    font-size: 22px;
+  }
 }
 .feedback-cards {
   display: flex;

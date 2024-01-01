@@ -12,28 +12,20 @@ import Vision from "./../home/Vision";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
-const Home = () => {
+
+const Test1 = () => {
   return (
     <>
-    <Navbar/>
-    <div style={{ marginTop: "9vh" }}>
+      <Navbar />
       <Title />
-      <Statistics />
-      <Vision />
       <Service />
       <Experience />
-      
       <Need />
-      <div className="backing">
-        <Mentor />
-        <Partners />
-        <Feedback />
-      </div>
-      <FeedbackForm /> 
-    </div>
-    {/* <Footer/> */}
+      <Mentor />
+      <Partners />
+      <Feedback />
     </>
   );
 };
 
-export default Home;
+export default Test1;

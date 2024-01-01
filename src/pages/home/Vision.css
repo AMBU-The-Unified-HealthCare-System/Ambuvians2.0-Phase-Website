@@ -12,6 +12,7 @@
   margin-top: 5rem;
 }
 
+
 .vision h2 {
   color: var(--neutral-d-grey, #4d4d4d);
   text-align: center;
@@ -92,4 +93,9 @@
 
 @media screen and (max-width: 320px) {
   /* Styles for screens under 320px */
+}
+@media (max-width : 550px) {
+  .vision {
+    display: none;
+  }
 }

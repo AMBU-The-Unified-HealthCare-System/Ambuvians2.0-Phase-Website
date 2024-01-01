@@ -1,0 +1,109 @@
+.home-service-heading{
+    color: var(--Neutral-D_Grey, #4D4D4D);
+    text-align: center;
+    font-family: Inter;
+    font-size: 38.06px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80.47%; /* 80.47% */
+    margin-top: 7%;
+}
+/* @media (max-width : ){
+    .home-service-heading{
+
+    }
+} */
+.home-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width : 853px){
+    .home-service {
+        flex-direction: column;
+    }
+}
+
+.home-service-image{
+    width: 57%;
+}
+.home-service-image img{
+    width: 100%;
+    max-width :882.735px;
+    aspect-ratio: 882.735/657;
+}
+@media (max-width : ){
+    .home-service-image{
+        width: 95%;
+    }
+    
+}
+
+.home-service-content {
+    width: 37%;
+}
+@media (max-width : 853px ){
+    .home-service-content{
+        width: 90%;
+        text-align: center;
+    }
+}
+.home-service-content h4 {
+    color: #DC1F27;
+    font-family: Poppins;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 141.026% ; 
+}
+@media (max-width : 774px){
+    .home-service-content h4{
+        color: #DC1F27;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 122.727%; /*  */
+    }
+}
+.home-service-content p {
+    color: #425066;
+    margin-top: 2em;
+    margin-bottom : 2em;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media (max-width : 774px ){
+    .home-service-content p{
+        color: #333;
+        text-align: justify;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.home-service-explore  {
+    width: 120px;
+    height: 54px;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #fd0808;
+    font-family: Lato;
+    font-size: 16px;
+    color: #fff;
+}
+@media (max-width : 774px){
+    .home-service-explore {
+        width: 65px;
+        height: 24px;
+        font-size: 8px;
+    }
+}
