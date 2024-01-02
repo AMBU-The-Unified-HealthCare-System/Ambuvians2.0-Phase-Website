@@ -24,6 +24,7 @@ const Test1 = () => {
       <Mentor />
       <Partners />
       <Feedback />
+      <FeedbackForm/>
     </>
   );
 };

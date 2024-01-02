@@ -1,19 +1,36 @@
-.joinUs-cardlibrary-child1,
-.joinUs-cardlibrary-child2,
-.joinUs-cardlibrary-child3{
-    display: flex;
-    justify-content: space-evenly;
-}
 
+.JoinUs-Parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .JoinUs-cardlibrary{
     background-image: url(./../../assets/images/joinUs/Rectangle.svg);
 }
+.webd{
+    margin-top: 7%;
+    margin-left: 7%;
+}
+.ml{
+    margin-top: 20%;
+    margin-left: 7%;
+}
+.video-editor {
+    margin-top : 20%;
+    margin-left: 7%;
+}
+.graphic-designer {
+    margin-top : 25%;
+    margin-left: 7%;
+}
+.content-writing {
+    margin-top : 20%;
+    margin-left : 7%;
+}
+.android-developer {
+    margin-top : 20%;
+    margin-left : 7%;
+}
 @media (max-width : 798px){
-    .joinUs-cardlibrary-child1,
-    .joinUs-cardlibrary-child2,
-    .joinUs-cardlibrary-child3{
-        flex-direction: row;
-        justify-content: center;
-    }
-
+    
 }
