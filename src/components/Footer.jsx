@@ -187,7 +187,7 @@ function Footer() {
       </div>
       <hr />
       <div className="copyright">
-        <h6>&#169; AMBUvians Healthcare Pvt. Ltd.</h6>
+        <h6>&#169; <span>Terms and conditions</span> <span>Privacy Policy</span> AMBUvians Healthcare Pvt. Ltd.</h6>
       </div>
     </div>
   );

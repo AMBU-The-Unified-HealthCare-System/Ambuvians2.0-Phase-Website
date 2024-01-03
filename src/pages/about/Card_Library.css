@@ -1,0 +1,146 @@
+.member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom :20px;
+}
+
+.member-heading {
+  color: #4d4d4d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.member-cards {
+  display: flex;
+  width: 95%;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.member-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.member-card {
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #dcdcdc;
+  background-color: #fff;
+  display: flex;
+  max-width: 310px;
+  flex-direction: column;
+  padding: 9px;
+  margin-left: 20px;
+}
+
+.member-img {
+  aspect-ratio: 0.96;
+  object-fit: contain;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 0;
+  object-position: center;
+  width: 310px;
+  overflow: hidden;
+  height: 210px;
+}
+
+.member-name {
+    align-self: stretch;
+    padding-top: 10px;
+    color: #282828;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    white-space: nowrap;
+    font: 600 18px/167% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+}
+.member-details{
+  justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    margin-top: 18px;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 16px;
+}
+.member-position {
+  align-self: stretch;
+  color: #3e3e59;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  margin-top: 4px;
+  white-space: nowrap;
+  font: 400 14px/157% Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.member-para {
+  color: #5f6980;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    align-self: stretch;
+    margin-top: 8px;
+    font: 400 14px/22px Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.member-socials {
+  align-self: center;
+    display: flex;
+    margin-top: 24px;
+    width: 140px;
+    max-width: 100%;
+    gap: 16px;
+}
+
+.member-links {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex: 1;
+}
+
+@media screen and (min-width: 2651px) {
+  /* Styles for screens above 2650px */
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+  /* Styles for screens between 2560px and 1441px */
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1281px) {
+  /* Styles for screens between 1440px and 1281px */
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  /* Styles for screens between 1280px and 1025px */
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  /* Styles for screens between 1024px and 769px */
+}
+
+@media screen and (max-width: 768px) and (min-width: 541px) {
+  /* Styles for screens between 768px and 541px */
+}
+
+@media screen and (max-width: 540px) and (min-width: 321px) {
+  /* Styles for screens between 540px and 321px */
+}
+
+@media screen and (max-width: 320px) {
+  /* Styles for screens under 320px */
+}

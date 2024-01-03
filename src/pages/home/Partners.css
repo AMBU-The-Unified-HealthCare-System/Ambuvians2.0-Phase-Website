@@ -1,9 +1,12 @@
 .partners {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 0rem;
+  justify-content: space-evenly;
+  width: 90%;
+  margin-left:5% ;
+  margin-right: 5%;
+  background-color: rgba(241, 228, 229, 1);
+  border-radius: 42px;
 }
 
 .partners-heading {
@@ -16,17 +19,23 @@
   font-weight: 600;
   line-height: normal;
 }
+@media (max-width : 666px ){
+  .partners-heading{
+    font-size: 22px;
+  }
+}
 
-.partners-logos {
-  width: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 1rem;
-  margin-top: 2rem;
-
-  border-radius: 42px;
-  background: #f1e4e5;
+.partners-logo {
+  width: 20%;
+  padding: 1%;
+  margin-top: 2%;
+}
+@media (max-width : 863px){
+  .partners-logos {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
 }
 
 @media screen and (min-width: 2651px) {

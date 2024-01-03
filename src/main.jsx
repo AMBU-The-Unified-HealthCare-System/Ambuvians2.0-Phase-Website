@@ -8,7 +8,9 @@ import {
 } from "react-router-dom";
 import Home from "./pages/home/Home.jsx";
 import LoginPage from "./pages/login/LoginPage.jsx";
-
+import About from "./pages/about/about.jsx";
+import Join_Us from "./pages/join-us/Join-Us.jsx";
+import Test1 from "./pages/testComponent/Test1.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,20 +23,24 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <h1>About</h1> ,
+        element: <About /> ,
       },
       {
-        path: "/service",
-        element: <h1>Service</h1> ,
-      },
-      {
-        path: "/hiring",
-        element: <h1>Join Us</h1> ,
+        path : "/hiring",
+        element : <Join_Us />
       },
       {
         path: "/login",
         element: <LoginPage/> ,
       },
+      {
+        path : "/services",
+        element : <h1>Build Service Component</h1>
+      },
+      {
+        path : "/test",
+        element : <Test1 />
+      }
     ],
   },
 ]);

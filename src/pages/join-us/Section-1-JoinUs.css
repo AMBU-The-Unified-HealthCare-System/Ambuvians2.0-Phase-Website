@@ -1,0 +1,68 @@
+.LandingJoinUs{
+    margin-top: 2%;
+    width: 100%;
+    aspect-ratio: 1920 / 860;
+    flex-shrink: 0;
+    background: linear-gradient(103deg, #FD0808 1.36%, #FFC5C8 97.52%);
+}
+.landingJoinUs1{
+    padding-top:100px;
+    display: flex; 
+    flex-direction: row;
+}
+.img2{
+    width: 128.192px;
+    height: 26.76px;
+    padding-left : 1200px;
+    flex-shrink: 0;
+}
+.image1 {
+    width: auto;
+    height: auto;
+    margin-left : 40px;
+}
+.h1JoinUs{
+    padding-left: 20px;
+    max-width: 611px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 45px;
+    width: 80%;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 55px; /* 122.222% */
+}
+.pJoinUs{
+    width : 747px;
+    padding-left: 20px;
+    color: #FFF;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+.flexdivJoinUs{
+    display: flex;
+    flex-direction: row;
+}
+.buttonJoinUs{
+    border-radius: 0px 20px 0px 15.9px;
+background: #FFF;
+box-shadow: 0px 10px 25px 0px rgba(2, 147, 52, 0.10);
+width: 354px;
+height: 48px;
+flex-shrink: 0;
+margin-top : 60px;
+margin-left: 20px;
+margin-bottom: 20px;
+color: rgba(0, 0, 51, 0.85);
+font-family: Ubuntu;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 33px; /* 150% */
+letter-spacing: -0.22px;
+}

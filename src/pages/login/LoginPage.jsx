@@ -4,24 +4,11 @@ import appleDownload from "../../assets/images/App Store Badge.svg";
 import Ambuvians from "../../assets/images/Ambuvians (3508 x 4960 px) 1.png"
 import Logo from "../../assets/images/Picsart_23-06-23_23-27-16-227-removebg-preview 1.png"
 import googlesign from "../../assets/images/iconfinder_Google_1298745 1.png"
+import Navbar from "../../components/Navbar";
 const LoginPage = () => {
   return (
     <div className="LoginContainer">
-      <div className="left">
-        <div className="LiveLocationTracker">
-          <h3>Live Locatiom tracker</h3>
-        </div>
-        <div className="leftImageContainer">
-          <div className="img">
-            <img src={ Ambuvians } alt="" loading="lazy" />
-          </div>
-          <div className="eclipse"></div>
-        </div>
-        <div className="AmbuviansHealthcare">
-          <span className="Ambuvians1">Ambuvians </span>
-          <span className="Healthcare1">Healthcare</span>
-        </div>
-      </div>
+      <Navbar/>
       <div className="right">
         <div className="head">
           <div className="rightImageConatiner">
@@ -132,6 +119,22 @@ const LoginPage = () => {
           </div>
         </div>
       </div>
+      <div className="left">
+        <div className="LiveLocationTracker">
+          <h3>Live Locatiom tracker</h3>
+        </div>
+        <div className="leftImageContainer">
+          <div className="img">
+            <img src={ Ambuvians } alt="" loading="lazy" />
+          </div>
+          <div className="eclipse"></div>
+        </div>
+        <div className="AmbuviansHealthcare">
+          <span className="Ambuvians1">Ambuvians </span>
+          <span className="Healthcare1">Healthcare</span>
+        </div>
+      </div>
+      
     </div>
   );
 };
